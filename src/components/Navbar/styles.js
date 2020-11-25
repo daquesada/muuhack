@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkRouter } from '@reach/router'
 
 export const Nav = styled.nav`
+background:#343a40;
 align-items: center;
 box-shadow: 0 10px 14px rgba(0, 0, 0, .5);
 height: 50px;
@@ -22,8 +23,11 @@ height: 100%;
 justify-content: center;
 text-decoration: none;
 width: 100%;
+&:hover{
+    color:white;
+}
 &[aria-current]{
-    color:black;
+    color:white;
     &::after{
         position:absolute;
         content: '_';

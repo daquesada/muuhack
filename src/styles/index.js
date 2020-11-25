@@ -31,5 +31,12 @@ html{
     overscroll-behavior:none;
     width: 100%;
     background:#fefefe;
+    background-position: 0 0, 25px 10px;
+    background-size: 50px 50px;
+    background-image:
+      radial-gradient( #ff3b3b 1px, transparent 1px), radial-gradient( #4cff16 1px, transparent 1px), radial-gradient(#fa983a 1px, transparent 1px);
+  }
+  ::-webkit-scrollbar{
+    display:none;
   }
 `
