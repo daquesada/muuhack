@@ -3,6 +3,8 @@ import { Link as LinkRouter } from '@reach/router'
 
 export const Nav = styled.nav`
 background:#343a40;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius:10px;
 align-items: center;
 box-shadow: 0 10px 14px rgba(0, 0, 0, .5);
 height: 50px;

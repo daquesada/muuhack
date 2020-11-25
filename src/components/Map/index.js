@@ -2,9 +2,9 @@ import React from "react"
 import { SVG,H2 } from './styles'
 
 export const Map = (props) => {
-  const handleOnMouseOver=(e)=>{
-    console.log(e.target.id)
-  }
+  // const handleOnMouseOver=(e)=>{
+  //   console.log(e.target.id)
+  // }
   return (
     <div>
       <H2>Cauca</H2>
