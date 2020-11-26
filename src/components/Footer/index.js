@@ -1,4 +1,5 @@
 import React from 'react'
+import { GoMarkGithub } from "react-icons/go";
 import { Footer as FooterApp, Anchor,Code } from './styles'
 export const Footer = () => {
     return (
@@ -6,6 +7,7 @@ export const Footer = () => {
             <Code>
                 <div>Iconos diseñados por <Anchor href="https://www.flaticon.es/autores/good-ware" title="Good Ware">Good Ware</Anchor> from <Anchor href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</Anchor></div>
             </Code>
+            <GoMarkGithub size={20} style={{marginTop:'10px'}}/>
         </FooterApp>
     )
 }

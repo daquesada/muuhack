@@ -5,6 +5,10 @@ margin-bottom:10px;
 font-size:40px;
 text-align: center;
 `
+export const Div = styled.div`
+box-shadow: 2px 10px 14px rgba(0, 0, 0, .6);
+background:#fefefe;
+`
 
 export const SVG = styled.svg`
     width: 100%;
@@ -15,6 +19,7 @@ export const SVG = styled.svg`
     left: 0;
     display:flex;
     text-align:center;
+    margin:0 auto;
 
 .map__image path:hover{
     fill: skyblue;

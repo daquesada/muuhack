@@ -1,12 +1,12 @@
 import React from "react"
-import { SVG,H2 } from './styles'
+import { SVG,H2, Div } from './styles'
 
 export const Map = (props) => {
   // const handleOnMouseOver=(e)=>{
   //   console.log(e.target.id)
   // }
   return (
-    <div>
+    <Div>
       <H2>Cauca</H2>
       <SVG
         xmlns="http://www.w3.org/2000/svg"
@@ -176,6 +176,6 @@ export const Map = (props) => {
         </g>
         
       </SVG>
-    </div>
+    </Div>
   )
 }

@@ -1,9 +1,9 @@
 import React from 'react'
-
-export const About = ()=>{
-    return(
+import { ListOfProviders } from '../components/ListOfProviders'
+export const About = () => {
+    return (
         <div>
-            About Works
+            <ListOfProviders />
         </div>
     )
 }
