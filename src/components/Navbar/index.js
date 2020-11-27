@@ -1,7 +1,8 @@
 import React, { Fragment, useState } from 'react'
 import { Nav, Link, Div, Button, Ul, Li } from './styles'
-import { MdHome, MdInfoOutline, MdPlace } from 'react-icons/md'
+import { MdHome, MdInfoOutline } from 'react-icons/md'
 import { Logo } from '../Logo'
+import { HiUsers } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 const SIZE = '35px'
 
@@ -18,10 +19,10 @@ export const Navbar = () => {
                         <MdHome size={SIZE} />
                     </Link>
                     <Link to='/home'>
-                        <MdPlace size={SIZE} />
+                        <MdInfoOutline size={SIZE} />
                     </Link>
                     <Link to='/acerca'>
-                        <MdInfoOutline size={SIZE} />
+                        <HiUsers size={SIZE} />
                     </Link>
                 </Div>
                 <Div className='sidebar'>
@@ -38,12 +39,12 @@ export const Navbar = () => {
                     </Li>
                     <Li>
                         <Link to='/home'>
-                            <MdPlace size={SIZE} onClick={() => setState(!state)}/>
+                            <MdInfoOutline size={SIZE} onClick={() => setState(!state)}/>
                         </Link>
                     </Li>
                     <Li>
                         <Link to='/acerca'>
-                            <MdInfoOutline size={SIZE} onClick={() => setState(!state)}/>
+                            <HiUsers size={SIZE} onClick={() => setState(!state)}/>
                         </Link>
                     </Li>
                 </Ul>

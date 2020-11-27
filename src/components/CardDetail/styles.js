@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 import {FadeIn} from '../../styles/animations'
 
+
 export const Article = styled.article`
 min-height:200px;
-margin: 6% 10% 6%;
+margin: 6% 15% 6%;
 background:#fefefe;
 border-radius:20px;
 box-shadow: 0 10px 14px rgba(0,0,0,.7);
@@ -14,17 +15,13 @@ box-shadow: 0 10px 14px rgba(0,0,0,.7);
 export const  Div = styled.div`
 padding-top: 8px;
 margin-bottom:20px;
-align-items: center;
-text-align: center;
 font-size: 20px;
-right:0;
-left:0;
 display:block;
-padding-top: 8px;
-& svg {
-    margin-right:4px;
-}
 `
+// right:0;
+// left:0;
+// align-items: center;
+// text-align: center;
 
 export const Img = styled.img`
 ${FadeIn({time:'0.5s'})}
@@ -50,7 +47,19 @@ export const Title = styled.h2`
 font-size: 30px;
 margin:0;
 text-align: center;
-&.proveedor{
-    font-size: 25px;
+`
+
+export const Span = styled.span`
+font-size: 25px;
+margin:10%;
+`
+
+export const P = styled.p`
+margin:0 10%;
+&.frase{
+    font-size:30px;
+    margin-top:40px;
+    font-style:italic;
+    text-align:center;
 }
 `

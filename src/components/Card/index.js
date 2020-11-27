@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
-import { ImgWrapper, Article, Img, Div } from './styles'
+import { ImgWrapper, Article, Img, Div, Title } from './styles'
 import { useNearScreen } from '../../hooks/useNearScreen'
+import {Link} from '@reach/router'
 
 export const Card = ({ id, avatar, nombre }) => {
     const [show, element] = useNearScreen();
@@ -10,10 +11,15 @@ export const Card = ({ id, avatar, nombre }) => {
             {
                 show &&
                 <Fragment>
-                    <ImgWrapper>
-                        <Img src={avatar}></Img>
-                    </ImgWrapper>
-                    <Div>{nombre}</Div>
+                    <Link to={`/detalle/${id}`} >
+                        <ImgWrapper>
+                            <Img src={avatar}></Img>
+                        </ImgWrapper>
+                    </Link>
+                    <Div>
+                       <Title>{nombre}</Title>
+                       <Title className='proveedor' >Proveedor</Title>
+                    </Div>
                 </Fragment>
             }
         </Article>

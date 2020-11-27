@@ -3,27 +3,42 @@
         {
             "id":1,
             "nombre":"Juan Guevara",
-            "avatar":"https://abc.finkeros.com/wp-content/uploads/2012/10/143.jpg"
+            "avatar":"https://abc.finkeros.com/wp-content/uploads/2012/10/143.jpg",
+            "ubicacion":"Vereda Río Blanco",
+            "transporte":"Camión",
+            "frase":"Piensa, sueña, cree y atrévete"
         },
         {
             "id":2,
             "nombre":"Andre Perez",
-            "avatar":"https://www.diariodelcesar.com/wp-content/uploads/2020/01/Leche.jpg"
+            "avatar":"https://www.diariodelcesar.com/wp-content/uploads/2020/01/Leche.jpg",
+            "ubicacion":"Cajibio",
+            "transporte":"Moto",
+            "frase":"Con autodisciplina casi todo es posible"
         },
         {
             "id":3,
             "nombre":"Rodrigo Lopez",
-            "avatar":"https://www.elcolombiano.com/documents/10157/0/789x562/0c0/0d0/none/11101/AMHI/image_content_32174731_20181107140430.jpg"
+            "avatar":"https://www.elcolombiano.com/documents/10157/0/789x562/0c0/0d0/none/11101/AMHI/image_content_32174731_20181107140430.jpg",
+            "ubicacion":"El Cofre",
+            "transporte":"Camión",
+            "frase":"Los obstáculos son esas cosas atemorizantes que ves cuando apartas los ojos de tu meta"
         },
         {
             "id":4,
             "nombre":"Rosalba Nuñez",
-            "avatar":"https://www.elcolombiano.com/documents/10157/0/580x398/0c16/580d365/none/11101/BRCJ/image_content_32291707_20181125160340.jpg"
+            "avatar":"https://www.elcolombiano.com/documents/10157/0/580x398/0c16/580d365/none/11101/BRCJ/image_content_32291707_20181125160340.jpg",
+            "ubicacion":"Pescador",
+            "transporte":"Camión",
+            "frase":"La edad no es barrera. Es una limitación que pones en tu mente"
         },
         {
             "id":5,
             "nombre":"Andrea Chavez",
-            "avatar":"https://storage.contextoganadero.com/s3fs-public/galeria/field_galeria/2018-06/2.jpg"
+            "avatar":"https://storage.contextoganadero.com/s3fs-public/galeria/field_galeria/2018-06/2.jpg",
+            "ubicacion":"Vereda Río Blanco",
+            "transporte":"Moto",
+            "frase":"Transforma tus heridas en sabiduría"
         }
     ]
 }

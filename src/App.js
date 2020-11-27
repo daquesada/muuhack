@@ -7,6 +7,7 @@ import { Footer } from './components/Footer'
 import { Router, } from '@reach/router'
 import { Home } from './Pages/Home'
 import { About } from './Pages/About'
+import { Detail } from './Pages/Detail'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
         <Router>
           <Home default />
+          <Detail path='/detalle/:id' />
           <Map path='/' />
           <Home path='/home' />
           <About path='/acerca'/>

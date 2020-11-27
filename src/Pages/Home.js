@@ -1,9 +1,9 @@
 import React from 'react'
-
+import {Info} from '../components/Info'
 export const Home = ()=>{
     return(
         <div>
-            <p>Home works</p>
+            <Info/>
         </div>
     )
 }

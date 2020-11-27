@@ -26,7 +26,7 @@ export const Map = (props) => {
   return (
     <Div>
       <H2>Producción de leche en el Cauca</H2>
-
+      <p style={{textAlign:'center'}}>seleccione una ciudad*</p>
       <SVG
         xmlns="http://www.w3.org/2000/svg"
         width={1537.5527}
