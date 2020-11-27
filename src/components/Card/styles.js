@@ -3,7 +3,7 @@ import {FadeIn} from '../../styles/animations'
 
 export const Article = styled.article`
 min-height:200px;
-margin: 6% 10% 6%;
+margin: 6% 15% 6%;
 background:#fefefe;
 border-radius:20px;
 box-shadow: 0 10px 14px rgba(0,0,0,.7);

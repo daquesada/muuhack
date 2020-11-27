@@ -14,7 +14,7 @@ border-top: 1px solid #2D3142;
 
 export const Anchor = styled.a`
 text-decoration:none;
-.logo{
+&.logo{
     color:black;
 }
 `
