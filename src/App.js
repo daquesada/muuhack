@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { Navbar } from './components/Navbar';
 import { Map } from './Pages/Map'
 import { GlobalStyles } from './styles/GlobalStyles'

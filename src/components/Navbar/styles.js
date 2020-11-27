@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link as LinkRouter } from '@reach/router'
+import {FadeIn} from '../../styles/animations'
 //#008dc9
 //#343a40
 // border-bottom-left-radius: 10px;
@@ -71,6 +72,7 @@ margin-right: auto;
 `
 
 export const Ul = styled.ul`
+${FadeIn({time:'0.3s'})}
 background:#008dc9;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius:10px;
@@ -83,12 +85,7 @@ left: 0;
 right: 0;
 width: 100%;
 justify-content: space-around;
-&:hover{
-    cursor:pointer;
-}
-&:focus{
-    box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
-}
+
 @media(min-width:720px){
         display:none;
 }

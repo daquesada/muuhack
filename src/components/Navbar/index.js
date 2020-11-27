@@ -17,7 +17,7 @@ export const Navbar = () => {
                     <Link to='/'>
                         <MdHome size={SIZE} />
                     </Link>
-                    <Link to='/mapa'>
+                    <Link to='/home'>
                         <MdPlace size={SIZE} />
                     </Link>
                     <Link to='/acerca'>
@@ -32,18 +32,18 @@ export const Navbar = () => {
                 state &&
                 <Ul>
                     <Li>
-                        <Link to='/home'>
+                        <Link to='/' onClick={() => setState(!state)}>
                             <MdHome size={SIZE} />
                         </Link>
                     </Li>
                     <Li>
-                        <Link to='/'>
-                            <MdPlace size={SIZE} />
+                        <Link to='/home'>
+                            <MdPlace size={SIZE} onClick={() => setState(!state)}/>
                         </Link>
                     </Li>
                     <Li>
                         <Link to='/acerca'>
-                            <MdInfoOutline size={SIZE} />
+                            <MdInfoOutline size={SIZE} onClick={() => setState(!state)}/>
                         </Link>
                     </Li>
                 </Ul>

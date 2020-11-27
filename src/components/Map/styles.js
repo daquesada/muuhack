@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const H2 = styled.h2`
-margin-bottom:10px;
+margin-bottom:20px;
 font-size:40px;
 text-align: center;
 `
