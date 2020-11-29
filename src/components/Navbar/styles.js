@@ -74,22 +74,20 @@ margin-right: auto;
 export const Ul = styled.ul`
 ${FadeIn({time:'0.3s'})}
 background:#008dc9;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius:10px;
 margin-left:auto;
 box-shadow: 0 10px 14px rgba(0, 0, 0, .5);
-height: 200px;
-display: block;
-top: 0;
+height: 50px;
+display: flex;
 left: 0;
 right: 0;
 width: 100%;
 justify-content: space-around;
-
+bottom:0;
+position:fixed;
+z-index:1000;
 @media(min-width:720px){
         display:none;
 }
-
 `
 export const Li = styled.li`
 padding: 10px;

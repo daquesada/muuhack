@@ -1,9 +1,8 @@
 import React, { Fragment, useState } from 'react'
-import { Nav, Link, Div, Button, Ul, Li } from './styles'
+import { Nav, Link, Div, Ul, Li } from './styles'
 import { MdHome, MdInfoOutline } from 'react-icons/md'
 import { Logo } from '../Logo'
 import { HiUsers } from "react-icons/hi";
-import { GiHamburgerMenu } from "react-icons/gi";
 const SIZE = '35px'
 
 export const Navbar = () => {
@@ -25,12 +24,7 @@ export const Navbar = () => {
                         <HiUsers size={SIZE} />
                     </Link>
                 </Div>
-                <Div className='sidebar'>
-                    <Button onClick={() => setState(!state)}> <GiHamburgerMenu size={SIZE} /> </Button>
-                </Div>
             </Nav>
-            {
-                state &&
                 <Ul>
                     <Li>
                         <Link to='/' onClick={() => setState(!state)}>
@@ -48,7 +42,7 @@ export const Navbar = () => {
                         </Link>
                     </Li>
                 </Ul>
-            }
+ 
         </Fragment>
     )
 }
