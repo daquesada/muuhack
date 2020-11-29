@@ -7,9 +7,11 @@ align-items: center;
 align-content: center;
 text-align: center;
 margin-top: 50px;
+margin-bottom: 100px;
 bottom:0;
 flex: 0 0 auto;
 border-top: 1px solid #2D3142;
+
 `
 
 export const Anchor = styled.a`
