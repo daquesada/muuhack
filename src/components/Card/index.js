@@ -11,16 +11,15 @@ export const Card = ({ id, avatar, nombre }) => {
             {
                 show &&
                 <Fragment>
-                    <Div>
-                       <Title>{nombre}</Title>
-                       <Title className='proveedor' >Productor</Title>
-                    </Div>
                     <Link to={`/detalle/${id}`} >
                         <ImgWrapper>
                             <Img src={avatar}></Img>
                         </ImgWrapper>
                     </Link>
-                    
+                    <Div>
+                       <Title>{nombre}</Title>
+                       <Title className='proveedor' >Productor</Title>
+                    </Div>
                 </Fragment>
             }
         </Article>
